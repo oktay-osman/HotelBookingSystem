@@ -1,18 +1,27 @@
-package com.sirma.academy;
+package models;
 
-public class Room {
+import com.sirma.academy.RoomType;
+
+import java.io.Serializable;
+
+public class Room implements Serializable {
     private int roomNumber;
+    //make roomType an object of RoomType ?
     private RoomType roomType;
     private double pricePerNight;
     private double cancellationFee;
-    private String status;
 
-    public Room(int roomNumber, RoomType roomType, double pricePerNight,String status) {
+    public enum Status{
+        BOOKED,
+        AVAILABLE
+    }
+
+    public Room(int roomNumber, RoomType roomType,
+                double pricePerNight, Status status) {
         this.roomNumber = roomNumber;
         this.roomType = roomType;
         this.pricePerNight = pricePerNight;
-        this.cancellationFee = pricePerNight * 0.1;
-        this.status = status;
+        this.cancellationFee = pricePerNight * 0.25;
     }
 
     public int getRoomNumber () {
@@ -45,13 +54,5 @@ public class Room {
 
     public void setCancellationFee (double cancellationFee) {
         this.cancellationFee = cancellationFee;
-    }
-
-    public String getStatus () {
-        return status;
-    }
-
-    public void setStatus (String status) {
-        this.status = status;
     }
 }
