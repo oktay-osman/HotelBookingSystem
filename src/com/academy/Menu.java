@@ -1,4 +1,4 @@
-package com.sirma.academy;
+package com.academy;
 
 public class Menu {
     private static final String LOGIN_MENU =

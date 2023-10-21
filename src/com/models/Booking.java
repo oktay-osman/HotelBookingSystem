@@ -1,7 +1,4 @@
-package models;
-
-import models.Room;
-import models.User;
+package com.models;
 
 import java.time.LocalDateTime;
 
