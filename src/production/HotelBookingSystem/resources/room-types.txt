@@ -1,3 +1,0 @@
-Deluxe, 3, Air conditioning, TV, Sea view, Balcony, Hair dryer, Mini fridge
-Suite, 2, Air conditioning, TV, Balcony, Hair dryer
-Single, 1, Air conditioning, TV, Hair dryer
