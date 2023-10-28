@@ -1,10 +1,10 @@
-package com.academy;
+package com.constants;
 
 public class Menu {
     private static final String LOGIN_MENU =
             "1.Login\n" +
             "2.Register\n" +
-            "0.Exit\n";
+            "0.Exit";
     private static final String USER_MENU =
             "1.View rooms\n" +
             "2.Book a room\n" +

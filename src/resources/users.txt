@@ -1,0 +1,3 @@
+admin, admin, ADMIN
+ivan, 123, USER
+georgi, 321, USER
